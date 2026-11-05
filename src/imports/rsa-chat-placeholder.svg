@@ -1,0 +1,34 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="1110" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#241A42"/>
+      <stop offset="1" stop-color="#7256D4"/>
+    </linearGradient>
+    <filter id="shadow" x="100" y="85" width="1000" height="670" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="1070" cy="80" r="250" fill="#A68BFF" fill-opacity=".14"/>
+  <circle cx="80" cy="740" r="280" fill="#FFB88A" fill-opacity=".08"/>
+  <g filter="url(#shadow)">
+    <rect x="150" y="120" width="900" height="560" rx="28" fill="#FAF9FF"/>
+    <rect x="150" y="120" width="900" height="76" rx="28" fill="#181421"/>
+    <circle cx="198" cy="158" r="10" fill="#FF7B77"/>
+    <circle cx="228" cy="158" r="10" fill="#F7CC65"/>
+    <circle cx="258" cy="158" r="10" fill="#62D493"/>
+    <text x="600" y="166" fill="#F6F3FF" font-size="24" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700">RSA SECURE CHAT</text>
+    <rect x="190" y="235" width="520" height="74" rx="20" fill="#EDE8FF"/>
+    <text x="220" y="280" fill="#352D49" font-size="22" font-family="Arial, sans-serif">Public key exchanged successfully</text>
+    <rect x="470" y="342" width="530" height="84" rx="20" fill="#7557D7"/>
+    <text x="500" y="393" fill="white" font-size="22" font-family="Arial, sans-serif">This message is RSA encrypted.</text>
+    <rect x="190" y="461" width="470" height="84" rx="20" fill="#EDE8FF"/>
+    <text x="220" y="512" fill="#352D49" font-size="22" font-family="Arial, sans-serif">Decrypted securely ✓</text>
+    <rect x="190" y="590" width="810" height="50" rx="25" fill="#EFEDF4"/>
+    <circle cx="961" cy="615" r="18" fill="#7557D7"/>
+  </g>
+  <g transform="translate(940 42)">
+    <rect x="0" y="22" width="72" height="58" rx="12" stroke="#D7CEFF" stroke-width="8"/>
+    <path d="M16 26V18C16 6 25-4 36-4C47-4 56 6 56 18V26" stroke="#D7CEFF" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
