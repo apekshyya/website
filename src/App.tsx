@@ -362,7 +362,7 @@ export default function App() {
                   <Icon name="linkedin" />
                 </a>
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/apekshyyaa_/"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Instagram"
