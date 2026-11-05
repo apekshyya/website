@@ -1,6 +1,6 @@
 import { FormEvent, ReactNode, useEffect, useState } from "react"
 
-type IconName = "arrow" | "briefcase" | "calendar" | "code" | "download" | "external" | "github" | "layers" | "linkedin" | "location" | "mail" | "menu" | "moon" | "send" | "server" | "sun" | "terminal" | "x"
+type IconName = "arrow" | "briefcase" | "calendar" | "code" | "download" | "external" | "github" | "instagram" | "layers" | "linkedin" | "location" | "mail" | "menu" | "moon" | "send" | "server" | "sun" | "terminal" | "x"
 
 const paths: Record<IconName, ReactNode> = {
   arrow: (
@@ -40,6 +40,13 @@ const paths: Record<IconName, ReactNode> = {
   ),
   github: (
     <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7A5.4 5.4 0 0 0 19.3 4 5.1 5.1 0 0 0 19.2.5S18.1.1 15 2a13.4 13.4 0 0 0-7 0C4.9.1 3.8.5 3.8.5A5.1 5.1 0 0 0 3.7 4a5.4 5.4 0 0 0-1.5 3.7c0 5.4 3.5 6.6 6.8 7A4.8 4.8 0 0 0 8 18v4m0-3c-3 .9-3-1.5-4-2" />
+  ),
+  instagram: (
+    <>
+      <rect width="18" height="18" x="3" y="3" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17.5" cy="6.5" r=".75" fill="currentColor" stroke="none" />
+    </>
   ),
   layers: (
     <>
@@ -353,6 +360,14 @@ export default function App() {
                   aria-label="LinkedIn"
                 >
                   <Icon name="linkedin" />
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Instagram"
+                >
+                  <Icon name="instagram" />
                 </a>
                 <a href="mailto:apkshabhattarai34@gmail.com" aria-label="Email">
                   <Icon name="mail" />
