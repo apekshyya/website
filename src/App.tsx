@@ -347,7 +347,7 @@ export default function App() {
                   <Icon name="github" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/in/apekshya-bhattarai-8309b9364/"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="LinkedIn"
